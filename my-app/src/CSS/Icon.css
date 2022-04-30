@@ -1,0 +1,8 @@
+.parentIcon{
+    display: flex;
+height: 100vh;
+}
+.containerIcon{
+    /* background-color: red; */
+width: 80%;
+}

@@ -1,0 +1,55 @@
+.option{
+    background-color:#141401d4;
+    width:20%;
+    color:white;
+    text-decoration: none;
+}
+.option ul li a{
+    color:white;
+    text-decoration: none;
+}
+.option ul li{
+    margin-left: 2vw;
+    list-style: none;
+    font-size: 1.2vw;
+    margin: 1vw;
+    margin-left: 2vw;
+    padding: 1vw;
+    border-radius: 3px;
+    transition: 0.5s all;
+}
+.option ul li i{
+padding:0 1vw 0 0;
+font-size: 1.4vw;
+}
+.option ul hr{
+margin: 1vw;
+opacity: 0.2;
+}
+.option ul li:nth-child(1),.option ul li:nth-child(11){
+font-size: 1.5vw;
+}
+.option ul li:nth-child(1){
+    position: relative;
+    left:-1vw;
+}
+.option ul li:nth-child(1) i{
+font-size: 2.5vw;
+margin-top: 0.5vw;
+position: relative;
+top:0.4vw;
+
+}
+.option ul li:nth-child(11){
+    margin-top: 3vw;
+    background-color: var(--main);
+}
+/* .option ul li:nth-child(3){
+    background-color: var(--main);
+} */
+#activate{
+    background-color: var(--main);
+}
+.opt:hover{
+    background-color: var(--main);
+}

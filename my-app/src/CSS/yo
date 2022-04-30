@@ -1,0 +1,131 @@
+
+.report{
+    display: flex;
+}
+.report ul{
+    width:50%;
+    height:30vw;
+    background: #fefefe;
+    margin: 1vw;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.3), 0 1px 1px rgba(0,0,0, 0.2);   
+border-radius: 4px;
+list-style: none;
+}
+.reportU1 li:nth-child(1){
+display: flex;
+flex-direction: row;
+color:white;
+background-color: #9e37b4;
+width:90%;
+margin: auto;
+border-radius: 4px;
+position: relative;
+top:-1.5vw
+}
+.reportU1 li:nth-child(1) p{
+margin: 1vw;
+padding: 0.8vw 0;
+display: flex;
+align-items: center;
+}
+.reportU1 li:nth-child(1) p i{
+    padding: 0.5vw;
+}
+.reportU1 li:nth-child(2) p{
+    display: flex;
+    align-items: center;
+    width:80%;
+    margin: auto;
+    padding: 1vw;
+    font-size:1.2vw;
+    color:#170b20;
+}
+.reportU1 li:nth-child(2) p input{
+    margin:0 1vw 0 0;
+    width:2vw;
+    height: 2vw;
+   background-color: pink;
+}
+#third{
+    width:4vw;
+}
+.reportU1 li:nth-child(2) p i{
+    padding-right: 0.5vw;
+}
+.reportU1 li:nth-child(2) p i:nth-child(2){
+    margin-right:1vw;
+    color:#9c27b0;
+}
+.reportU1 li:nth-child(2) p i:nth-child(3){
+    color:rgb(241, 109, 109);
+}
+
+.reportU1 li:nth-child(2) hr{
+    margin: 0 2vw;
+}
+.reportU1a li:nth-child(1){
+    background-color: #fd9b14;
+
+}
+/* <div className="analyse">
+    <ul>
+    <li><i class="far fa-chart-bar"></i></li>
+    <li>Daily Sales</li>
+    <li> 55% increase in today sales.</li>
+    <hr />
+    <li className="time">updated 4 minutes ago</li>
+    </ul>
+    <ul>
+    <li><i class="far fa-chart-bar"></i></li>
+    <li>Daily Sales</li>
+    <li> 55% increase in today sales.</li>
+    <hr />
+    <li className="time">updated 4 minutes ago</li>
+    </ul>
+    <ul>
+    <li><i class="far fa-chart-bar"></i></li>
+    <li>Daily Sales</li>
+    <li> 55% increase in today sales.</li>
+    <hr />
+    <li className="time">updated 4 minutes ago</li>
+    </ul>
+   
+  </div> */
+  /* <div className="report">
+    <ul className="reportU1">
+    <li>
+      <p>Tasks:</p>
+      <p><i class="fas fa-bug"></i>Bugs</p>
+      <p><i class="fas fa-code"></i>Website</p>
+      <p><i class="fas fa-cloud-upload-alt"></i>Server</p>
+    </li>
+    <li>
+      <p><input type="checkbox" name="" id="" /> Sign contract for "What are conference organizers afraid of?"<i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+      <hr />
+      <p><input type="checkbox" name="" id="" /> Lines From Great Russian Literature? Or E-mails From My Boss?<i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+      <hr />
+      <p><input type="checkbox" name="" id="third" /> Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit<i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+      <hr />
+      <p><input type="checkbox" name="" id="" /> Create 4 Invisible User Experiences you Never Knew About<i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+      
+    </li>
+    </ul>
+    <ul className="reportU1 reportU1a">
+    <li>
+      <p>Tasks:</p>
+      <p><i class="fas fa-bug"></i>Bugs</p>
+      <p><i class="fas fa-code"></i>Website</p>
+      <p><i class="fas fa-cloud-upload-alt"></i>Server</p>
+    </li>
+    <li>
+      <p><input type="checkbox" name="" id="" /> Sign contract for "What are conference organizers afraid of?"<i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+      <hr />
+      <p><input type="checkbox" name="" id="" /> Lines From Great Russian Literature? Or E-mails From My Boss?<i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+      <hr />
+      <p><input type="checkbox" name="" id="third" /> Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit<i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+      <hr />
+      <p><input type="checkbox" name="" id="" /> Create 4 Invisible User Experiences you Never Knew About<i class="fas fa-pen"></i><i class="fas fa-times"></i></p>
+      
+    </li>
+    </ul>
+  </div> */

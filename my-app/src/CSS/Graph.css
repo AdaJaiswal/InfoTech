@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parentGraph{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerGraph{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    background-color: #eeeeee;
+overflow: hidden;
+overflow-y: scroll;
+}
+.analyseGraph{
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+.analyseGraph ul {
+    background-color: rgb(255, 255, 255);
+    width:15vw;
+    height:11vw;
+    display: flex;
+    list-style: none;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.3), 0 1px 1px rgba(0,0,0, 0.2);   
+border-radius: 4px;
+margin: 1vw;
+padding: 1vw;
+}
+.analyseGraph ul li:nth-child(1) p:nth-child(1) {
+    font-size: 1vw;
+    color: #88a5c8;
+margin: 1.2vw 1vw 0.1vw 1vw;
+}
+.analyseGraph ul li:nth-child(1) p:nth-child(2) {
+    font-size: 1.6vw;
+    font-weight: 600;
+margin: 0.1vw 1vw 0.2vw 1vw;
+
+}
+.analyseGraph ul li:nth-child(1) p:nth-child(3) {
+color:green;
+margin: 1vw 1vw 0.2vw 1vw;
+}
+.analyseGraph ul li:nth-child(1) p:nth-child(4) {
+    margin: 0.1vw 1vw 0.2vw 1vw;
+font-size: 1.2vw;
+color: #88a5c8;
+
+}
+
+.analyseGraph ul li:nth-child(2) i {
+    background-color: #30a103;
+    color: white;
+    font-size: 1.5vw;
+    padding:1vw;
+    border-radius: 100%;
+    position: relative;
+    top:1.2vw;
+}
+.graphGraph{
+    margin: 3vw;
+    display: flex;
+    margin-left: 4vw;
+
+}
+.graphGraph ul{
+background-color: #ffffff;
+width:25vw;
+height: 35vw;
+border-radius: 6px;
+list-style: none;
+box-shadow: 0 1px 1px rgba(0,0,0, 0.3), 0 1px 1px rgba(0,0,0, 0.2);   
+
+}
+.graphGraph ul li:nth-child(1){
+    padding: 1vw 0 0 2vw;
+    font-size: 0.9vw;
+    color: #88a5c8;
+    letter-spacing: 1px;
+}
+.graphGraph ul li:nth-child(2){
+    font-size: 1.5vw;
+    padding: 0.2vw 0 1vw 2vw;
+    font-weight: 600;
+}
+
+.graphGraph ul li:nth-child(4){
+    font-size: 20vw;
+    margin-left: 1vw;
+    color: #f44336;
+}
+.graphGraph ul li:nth-child(5){
+    padding-left: 1vw;
+}
+#Graph2{
+    width:45vw;
+    margin-left: 2vw;
+}
+#Graph2 li:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+#Graph2 li:nth-child(1) p button{
+    padding: 0.5vw 1vw;
+    font-size: 1.2vw;
+   margin:  0 0.5vw;
+   background-color: #f44336;
+   border: 1px solid #f44336;
+   color: white;
+   border-radius: 4px;
+   cursor:pointer;
+}
+#Graph2 li:nth-child(1) p button:hover{
+    background-color: white;
+    color: grey;
+}
+
+#Graph2 li i{
+font-size: 30vw;
+margin-left: 7vw;
+position: relative;
+top:-2vw;
+}
+
+
+/* tableGraph */
+.tableGraph{
+    display: flex;
+}
+.tableGraph ul{
+    background-color: red;
+    margin-left: 4vw;
+    list-style: none;
+    height: 30vw;
+    background-color: white;
+box-shadow: 0 1px 1px rgba(0,0,0, 0.3), 0 1px 1px rgba(0,0,0, 0.2);   
+border-radius: 7px;
+margin-bottom: 3vw;
+overflow-y: scroll;
+scrollbar-width: 1px;
+}
+.tableGraph ul:nth-of-type(1){
+    width:45vw;
+}
+.tableGraph ul:nth-of-type(2){
+    position: relative;
+    left: -2vw;
+}
+
+.tableGraph ul::-webkit-scrollbar {
+display: none;
+}
+
+.tableGraph ul li:nth-child(1){
+    display: flex;
+    padding: 1.5vw 2vw;
+    justify-content: space-between;
+}
+.tableGraph ul li:nth-child(1) p:nth-of-type(1){
+font-size: 1.3vw;
+/* color: grey; */
+font-weight: 600;
+}
+.tableGraph ul li:nth-child(1) p:nth-of-type(2){
+    padding: 0.3vw 1vw;
+    font-size: 1.2vw;
+   margin:  0 0.5vw;
+   background-color: #f44336;
+   border: 1px solid #f44336;
+   color: white;
+   border-radius: 4px;
+   cursor:pointer;
+}
+
+.tableGraph ul li:not(.tableGraph ul li:nth-child(1) ){
+display: flex;
+justify-content: space-between;
+padding: 1.5vw 1vw;
+font-size: 0.8vw;
+color: gray;
+}
+.tableGraph ul li p:not(.tableGraph ul li p:nth-of-type(1)){
+    /* background-color: red; */
+    width:5vw;
+}
+
+.tableGraph ul li p:nth-of-type(1){
+    width: 20vw;
+}
+.tableGraph ul li:nth-of-type(2){
+    background-color: rgb(243, 243, 243);
+
+}
+.tableGraph ul hr{
+    color: rgb(117, 117, 117);
+    opacity: 0.4;
+}

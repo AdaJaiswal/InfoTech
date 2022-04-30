@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.parentContact{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.containerContact{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    background-color: #eeeeee;
+overflow: hidden;
+overflow-y: scroll;
+}
+.formContact{
+    display: flex;
+
+}
+.formContact ul{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.3), 0 1px 1px rgba(0,0,0, 0.2);   
+width:32vw;
+list-style: none;
+height: 43vw;
+margin-left: 4vw;
+margin-top: 2vw;
+border-radius: 10px;
+
+}
+.formContact ul li{
+    text-align: center;
+/* margin: auto; */
+margin-top: 1vw;
+}
+.formContact ul li:nth-of-type(1){
+    color: grey;
+    font-size: 1vw;
+}
+.formContact ul li:nth-of-type(3){
+    margin-top: 2vw;
+    color: grey;
+    font-size: 1vw;
+    
+}
+.emailContact{
+   color:grey;
+   width: 20vw;
+   font-size: 1.1vw;
+   padding: 0.7vw 1vw;
+   outline: none;
+   border: 1px solid #9a9b9aab;
+   box-shadow: 0 1px 1px rgba(0,0,0, 0.3), 0 1px 1px rgba(0,0,0, 0.2);   
+border-radius: 7px;
+margin-top: 0.5vw;
+}
+.btnContact{
+   padding:0.7vw 1.5vw;
+   font-size: 1.1vw;
+   margin-left: 1vw;
+   background-color: rgb(255, 255, 255);
+   color: green;
+   border:1px solid green;
+   border-radius: 6px;
+   box-shadow: 0 1px 1px rgba(0,0,0, 0.3), 0 1px 1px rgba(0,0,0, 0.2);   
+}
+.formContact ul hr{
+    opacity: 0.2;
+    margin-top: 1.5vw;
+}
+.submitContact{
+    position: relative;
+    left:-8.5vw;
+    
+}
+.ethContact{
+    font-size: 30vw;
+    color: grey;
+    margin-left: 4vw;
+    margin-top: 6vw;
+}
+.bitContact{
+    font-size: 15vw;
+    color: rgb(226, 185, 5);
+    color: rgb(170, 170, 170);
+    margin-top: 3vw;
+
+}
+.bit1Contact{
+position: absolute;
+font-size: 10vw;
+color: rgb(226, 185, 5);
+/* color: rgb(170, 170, 170); */
+margin-top: 3vw;
+right: 12vw;
+bottom: 10vw;
+}
+
+#google{
+    padding-left:2vw;
+    padding-right:2vw;
+    border-color: #ff0000 #00ff00 #0000ff rgb(255, 251, 0);
+    border-width: 2px;
+}
+#google i{
+padding:0 0.3vw;
+}
+.btnContact:hover{
+    background:green;
+    color:white;
+}
+#google:hover{
+    background-image: linear-gradient(to right,  #ff0000,#00ff00,#11808f,rgb(255, 251, 0));
+    border: 2px solid black;
+}
+/* .option ul li:nth-child(3){
+    background-color:transparent;
+}
+.option ul li:nth-child(4){
+    background-color: var(--main);
+} */
